@@ -1,6 +1,6 @@
 import pytube
 
-playlist_url = "https://youtube.com/playlist?list=PLjRBWix725xo8F3mPC44JmlNHC3fXmnD_"
+playlist_url = "insert-your-link-here"
 
 playlist = pytube.Playlist(playlist_url)
 for video in playlist.videos:
